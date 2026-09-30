@@ -2,6 +2,8 @@
 
 Windows 托盘应用：健康提醒、资讯摘要、工作痕迹与「摸大鱼」面板。数据保存在本机，单实例运行，支持浅色/深色主题。
 
+仓库：<https://github.com/superlongking111/touchingfishv1.0>
+
 ## 特性
 
 - **健康提醒**：喝水、走动、休息、厕所等可配置间隔；右下角 toast，支持稍后静默；同时仅显示一条提醒。
@@ -19,15 +21,16 @@ Windows 托盘应用：健康提醒、资讯摘要、工作痕迹与「摸大鱼
 
 ### 发行版（推荐）
 
-1. 从 [Releases](https://github.com/YOUR_USER/YOUR_REPO/releases) 下载 `摸鱼助手.exe`（或本地 `dist\摸鱼助手.exe`）。
+1. 打开 [Releases 页面](https://github.com/superlongking111/touchingfishv1.0/releases)，在最新版本里下载 **`摸鱼助手.exe`**。  
+   （若页面提示 “There aren’t any releases here”，说明维护者还未上传安装包，请改用下方「从源码打包」，或自行在本地 `dist\` 使用已构建的 exe。）
 2. 运行后托盘驻留，右键打开 **设置** / **摸大鱼**。
 3. 在 **设置 → 内容** 填写 **今日话题**，需要摘要推送时配置 **模型 API**；可点击 **立即抓取并筛选** 填充本地内容库。
 
 ### 从源码运行
 
 ```bash
-git clone https://github.com/YOUR_USER/YOUR_REPO.git
-cd YOUR_REPO
+git clone git@github.com:superlongking111/touchingfishv1.0.git
+cd touchingfishv1.0
 python -m venv .venv
 .venv\Scripts\activate          # Windows
 pip install -r requirements.txt
