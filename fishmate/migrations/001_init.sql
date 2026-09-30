@@ -1,0 +1,2 @@
+-- Schema is applied programmatically in repositories/db.py (SCHEMA_V1).
+-- This file documents the V1 migration for reference.

@@ -1,0 +1,32 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+dist/
+build/
+*.spec.bak
+.specstory/
+*.log
+logs/
+spec_extract.txt
+.cursorindexingignore
+
+# 本地构建 / 分发
+*.exe
+摸鱼助手.exe
+
+# 密钥与误放的本地配置（API Key / SMTP 应走 Windows 凭据管理器，勿放 .env）
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# 本地数据库与导出（含个人路径、话题、邮件地址等）
+fishmate.db
+*.db
+exports/
+*.zip
